@@ -1,0 +1,8 @@
+:root {
+  --select-color: white;
+  --background-color: rgb(255, 239, 211);
+}
+
+body {
+  background-color: var(--background-color);
+}
