@@ -3,5 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ['@nuxtjs/tailwindcss', 'nuxt-swiper'],
   css: ['@/assets/css/main.css'],
-  swiper: {},
+  app: {
+    head: {
+      title: 'MOG Clothing',
+    },
+  },
 });

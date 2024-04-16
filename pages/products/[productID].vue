@@ -1,5 +1,13 @@
 <template>
   <div>
+    <Head>
+      <Title>MOG | {{ product.title }}</Title>
+      <Meta
+        name="description"
+        :content="product.description"
+      ></Meta>
+    </Head>
+
     <ProductDetails :product="product" />
   </div>
 </template>
